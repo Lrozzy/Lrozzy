@@ -17,18 +17,10 @@ PhD student in Computer Science at UCL, researching computer vision. My recent w
 - **FPGA synthesis:** An HGQ Linformer fit within one SLR of a VU13P FPGA; Alkaid synthesis reported 115 ns latency.
 - **Quantum machine learning:** Implemented trainable Strawberry Fields photonic circuits for top-quark versus QCD jet classification. A documented 10-epoch run reached 0.799 test ROC AUC on 1,000 held-out jets (1,000 training and 200 validation examples). An anomaly-scoring autoencoder prototype reached 0.797 test AUC on an initial 500-jet sample.
 
-## Named-author papers and preprints
+## Papers
 
 - [Enabling searches for long-lived particles at a future 10 TeV Muon Collider](https://arxiv.org/abs/2512.10097). arXiv:2512.10097 (2025); named co-author: **Leo Rozanov**.
 - [MAIA: A new detector concept for a 10 TeV muon collider](https://arxiv.org/abs/2502.00181). arXiv:2502.00181 (2025); named co-author: **Leo Rozanov**.
-
-## Muon Collider collaboration reports
-
-The following reports list me within their collaboration author groups.
-
-- [The Muon Collider](https://arxiv.org/abs/2504.21417), arXiv:2504.21417 (2025).
-- [MuCol Milestone Report No. 7: Consolidated Parameters](https://arxiv.org/abs/2510.27437), arXiv:2510.27437 (2025).
-- [MuCol Milestone Report No. 5: Preliminary Parameters](https://arxiv.org/abs/2411.02966), arXiv:2411.02966 (2024).
 
 ## Talks and Awards
 
