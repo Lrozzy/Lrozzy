@@ -2,7 +2,7 @@
 
 # Leo Rozanov
 
-I’m a PhD student in Computer Science at UCL, focusing on computer vision.
+PhD student in Computer Science at UCL, researching computer vision. My recent work includes contrastive representation learning and event-level zero-shot learning for the CMS Level-1 trigger, with FPGA-oriented evaluation using high-granularity quantization (HGQ) and Linformer.
 
 ## Education
 
@@ -17,16 +17,20 @@ I’m a PhD student in Computer Science at UCL, focusing on computer vision.
 - **FPGA synthesis:** An HGQ Linformer fit within one SLR of a VU13P FPGA; Alkaid synthesis reported 115 ns latency.
 - **Quantum machine learning:** Implemented trainable Strawberry Fields photonic circuits for top-quark versus QCD jet classification. A documented 10-epoch run reached 0.799 test ROC AUC on 1,000 held-out jets (1,000 training and 200 validation examples). An anomaly-scoring autoencoder prototype reached 0.797 test AUC on an initial 500-jet sample.
 
-## Publications and preprints
+## Named-author papers and preprints
 
-- [Enabling searches for long-lived particles at a future 10 TeV Muon Collider](https://arxiv.org/abs/2512.10097)
-- [MAIA: A new detector concept for a 10 TeV muon collider](https://arxiv.org/abs/2502.00181)
-- [The Muon Collider](https://arxiv.org/abs/2504.21417)
-- [MuCol Milestone Report No. 7: Consolidated Parameters](https://arxiv.org/abs/2510.27437)
-- [MuCol Milestone Report No. 5: Preliminary Parameters](https://arxiv.org/abs/2411.02966)
-- [Interim report for the International Muon Collider Collaboration (IMCC)](https://arxiv.org/abs/2407.12450)
+- [Enabling searches for long-lived particles at a future 10 TeV Muon Collider](https://arxiv.org/abs/2512.10097). arXiv:2512.10097 (2025); named co-author: **Leo Rozanov**.
+- [MAIA: A new detector concept for a 10 TeV muon collider](https://arxiv.org/abs/2502.00181). arXiv:2502.00181 (2025); named co-author: **Leo Rozanov**.
 
-## Talks and award
+## Muon Collider collaboration reports
+
+The following reports list me within their collaboration author groups.
+
+- [The Muon Collider](https://arxiv.org/abs/2504.21417), arXiv:2504.21417 (2025).
+- [MuCol Milestone Report No. 7: Consolidated Parameters](https://arxiv.org/abs/2510.27437), arXiv:2510.27437 (2025).
+- [MuCol Milestone Report No. 5: Preliminary Parameters](https://arxiv.org/abs/2411.02966), arXiv:2411.02966 (2024).
+
+## Talks and Awards
 
 - Presented “Real-time Event-level Zero-shot Learning at 40 MHz” at Fast Machine Learning for Science Conference 2026, UC San Diego, where I received a Best Talk Award.
 - [Unconventional Track Signatures at a 10 TeV Muon Collider](https://indico.global/event/805/contributions/23610), DPF-Pheno 2024.
@@ -39,4 +43,4 @@ I’m a PhD student in Computer Science at UCL, focusing on computer vision.
 
 ## Skills
 
-Python, C++, Bash, Git, Linux; JAX, Keras, PyTorch, TensorFlow, NumPy, SciPy, Matplotlib, Strawberry Fields; ROOT, LCIO, HPC, contrastive learning, zero-shot learning, transformer models, high-granularity quantization, FPGA synthesis.
+Python, C++, Bash, Git, Linux; PyTorch, TensorFlow, Keras, JAX, Strawberry Fields, NumPy, SciPy, Matplotlib; contrastive learning (triplet loss, InfoNCE), representation learning, zero-shot learning, transformer models, Linformer, high-granularity quantization (HGQ), qKeras, FPGA synthesis, low-latency inference; ROOT, LCIO, HPC.
