@@ -1,38 +1,26 @@
-![Header](./github-header-banner.png)
-
 # Leo Rozanov
 
-PhD student in Computer Science at UCL, researching computer vision. My recent work includes contrastive representation learning and event-level zero-shot learning for the CMS Level-1 trigger, with FPGA-oriented evaluation using high-granularity quantization (HGQ) and Linformer.
+I'm a PhD student in Computer Science at UCL, researching computer vision. My previous research spans contrastive learning, zero-shot learning, and quantum machine learning.
 
-## Education
+[LinkedIn](https://www.linkedin.com/in/leo-rozanov-220a8422a/) · [Email](mailto:leo.rozanov@gmail.com)
 
-- PhD in Computer Science, University College London (Computer Vision), Sep 2026–present
-- MSc Physics with Extended Research, Imperial College London, Distinction, Sep 2024–Sep 2026
-- BA in Physics, University of Chicago, Sep 2019–Jun 2023
+## Selected research
 
-## Research
+- **Real-time machine learning.** Developed representation learning for the CMS Level-1 trigger, transferring information from fully reconstructed events to real-time inputs. My work also explored event-level zero-shot learning and FPGA deployment with HGQ and Linformer. [FastML talk](https://indico.cern.ch/event/1654479/contributions/7189016/).
+- **Quantum machine learning.** Built trainable photonic circuits for jet classification and a quantum-autoencoder prototype for anomaly detection, with reusable GPU/HPC experiments. [Code](https://github.com/Lrozzy/1P1Qm_SF).
+- **Muon collider research.** Studied detector tracking and long-lived particles, contributed to two papers, and wrote the tracking-performance section of MAIA. [Simulation code](https://github.com/kdp-lab/Leo-LLPs-Code) · [Tracking analysis](https://github.com/Lrozzy/10TeV_paper).
 
-- **CMS Level-1 contrastive learning:** Built a three-stage pipeline combining triplet-loss pretraining, paired-view InfoNCE, and supervised L1 fine-tuning. On a five-class, 10-million-event subset, L1 validation accuracy rose from 62.4% to 65.0%.
-- **Event-level zero-shot learning:** At a threshold rejecting 99% of minimum-bias events, median signal retention was 87.2% for BSM, 94.2% for unseen SM, and 85.2% for seen SM samples.
-- **FPGA synthesis:** An HGQ Linformer fit within one SLR of a VU13P FPGA; Alkaid synthesis reported 115 ns latency.
-- **Quantum machine learning:** Implemented trainable Strawberry Fields photonic circuits for top-quark versus QCD jet classification. A documented 10-epoch run reached 0.799 test ROC AUC on 1,000 held-out jets (1,000 training and 200 validation examples). An anomaly-scoring autoencoder prototype reached 0.797 test AUC on an initial 500-jet sample.
+## Papers and preprints
 
-## Papers
+- [Enabling searches for long-lived particles at a future 10 TeV Muon Collider](https://arxiv.org/abs/2512.10097)
+- [MAIA: A new detector concept for a 10 TeV muon collider](https://arxiv.org/abs/2502.00181)
 
-- [Enabling searches for long-lived particles at a future 10 TeV Muon Collider](https://arxiv.org/abs/2512.10097). arXiv:2512.10097 (2025); named co-author: **Leo Rozanov**.
-- [MAIA: A new detector concept for a 10 TeV muon collider](https://arxiv.org/abs/2502.00181). arXiv:2502.00181 (2025); named co-author: **Leo Rozanov**.
+Both are available as arXiv preprints.
 
-## Talks and Awards
+## Talks and awards
 
-- Presented “Real-time Event-level Zero-shot Learning at 40 MHz” at Fast Machine Learning for Science Conference 2026, UC San Diego, where I received a Best Talk Award.
-- [Unconventional Track Signatures at a 10 TeV Muon Collider](https://indico.global/event/805/contributions/23610), DPF-Pheno 2024.
-- [Tracker Performance at a 10 TeV Muon Collider](https://meetings.aps.org/Meeting/APR24/Session/N00.20), APS April Meeting 2024.
+- [Real-time Event-level Zero-shot Learning at 40 MHz](https://indico.cern.ch/event/1654479/contributions/7189016/), FastML 2026, UC San Diego. **Best Talk Award.**
+- [Unconventional Track Signatures at a 10 TeV Muon Collider](https://indico.global/event/805/contributions/23610/attachments/11420/16924/Leo_Rozanov_DPF_Pheno_2024_final.pdf), DPF-Pheno 2024.
+- [Tracker Performance at a 10 TeV Muon Collider](https://meetings-archive.aps.org/apr/2024/n00/20), APS April Meeting 2024.
 
-## Manuscripts in preparation
-
-- CMS Level-1 representation learning and event-level zero-shot learning.
-- Quantum machine learning simulations for jet classification and anomaly detection.
-
-## Skills
-
-Python, C++, Bash, Git, Linux; PyTorch, TensorFlow, Keras, JAX, Strawberry Fields, NumPy, SciPy, Matplotlib; contrastive learning (triplet loss, InfoNCE), representation learning, zero-shot learning, transformer models, Linformer, high-granularity quantization (HGQ), qKeras, FPGA synthesis, low-latency inference; ROOT, LCIO, HPC.
+Previously, I completed an MSc in Physics with Extended Research at Imperial College London and a BA in Physics at the University of Chicago.
